@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>|-Contacto-| Web Page</title>
+  <link rel="shortcut icon" href="/img/logos/Logo 04.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Quicksand&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+  <header>
+    <!-- Inicio del Header -->
+    <nav class="navbar contenedor">
+      <picture class="navbar__logo">
+        <a href="/pages/index.html">
+          <img src="/img/logos/Logo 04.png" alt="Imagen del Logo" width="150px" height="78px"></a>
+      </picture>
+      <ul class="navbar__menu">
+        <li class="navbar__item ">
+          <a class="navbar__link" href="/pages/index.html">Home</a>
+        </li>
+        <li class="navbar__item">
+          <a class="navbar__link" href="/Contactos.html">Contacto</a>
+        </li>
+        <li class="navbar__item">
+          <a class="navbar__link" href="/Registro.html">Registro</a>
+        </li>
+      </ul>
+    </nav>
+  </header><!-- Fin del Header -->
+
+  <main>
+    <section id="seccionContacto">
+      <form id="formcContacto" action="https://formsubmit.co/jose.liquin@bue.edu.ar" method="POST">
+        <!-- https://formsubmit.co/ ## Aceptar activacion que llega al Email por primera vez para que lleguen los formularios-->
+        <h2>Contactenos</h2>
+
+        <div>
+          <input class="form-content-input" type="text" name="Nombre" placeholder="Nombre">
+        </div>
+
+        <div>
+          <input class="form-content-input" type="email" name="Correo" placeholder="Correo">
+        </div>
+
+        <div>
+          <textarea class="form-content-input" name="Mensaje" id="Texto-consulta"
+            placeholder="Escriba aqui su consulta"></textarea>
+        </div>
+
+        <div>
+          <input id="contactoBoton" type="submit" value="Enviar">
+        </div>
+
+        <div>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5501/pages/Contactos.html">
+        </div>
+
+        <div>
+          <input type="hidden" name="_captcha" value="false">
+        </div>
+      </form>
+    </section>
+  </main>
+  <footer class="Footer">
+    <!-- Inicio del Footer-->
+    <section class="Footer__left">
+      <article class="Footer__left__conten">
+        <div class="Footer__left__conten-contact">
+          <img class="Footer__img" src="/img/Icons/redes/whatsapp.png" alt="logo de whatsapp" width="50px"
+            height="40px">
+          <p id="Number">115557799</p>
+          <h4 id="Tatoo"><b>Tatoo Art</b></h4>
+        </div>
+        <p class="Footer__left__conten-text">Contamos con la experiencia de grandes tautadores para realizar todo tipo
+          de
+          tatuajes, asistencia post-trabajo y asesoramiento previo</p>
+      </article>
+    </section>
+
+    <section class="Footer__center">
+      <article class="Footer__center__conten">
+        <h4 id="Desarrolladores"><b>Desarrolladares de Contenido:</b></h4>
+        <div class="Footer__center__conten-fav">
+          <i class="fa-solid fa-code fa-flip fa-xl" style="color: #ffffff;"></i>
+          <p>Gaby</p>
+          <i class="fa-solid fa-code fa-flip fa-xl" style="color: #ffffff;"></i>
+          <p>Mila</p>
+          <i class="fa-solid fa-code fa-flip fa-xl" style="color: #ffffff;"></i>
+          <p>Juan</p>
+        </div>
+      </article>
+    </section>
+
+    <section class="Footer__right">
+      <article class="Footer__right__conten">
+        <h4 id="Contactos"><b>Contactenos</b></h4>
+
+        <div class="Red">
+          <a class="Icon" href="https://www.facebook.com/" target="_blank">
+            <img src="/img/Icons/redes/Facebook.png" alt="imagen de faceboock" width="50px" height="50px">
+            <p>Seguinos en Facebook</p>
+          </a>
+        </div>
+
+        <div class="Red">
+          <a class="Icon" href="https://www.instagram.com/" target="_blank">
+            <img src="/img/Icons/redes/Instagram.png" alt="imagen de instagram" width="50px" height="50px">
+            <p> Seguinos en Instagram</p>
+          </a>
+        </div>
+
+        <div class="Red">
+          <a class="Icon" href="https://www.linkedin.com/" target="_blank">
+            <img src="/img/Icons/redes/Linkedin.png" alt="imagen de Likenid" width="50px" height="40px">
+            <p>Seguinos en Likenid </p>
+          </a>
+        </div>
+      </article>
+    </section>
+
+  </footer> <!-- Fin del Footer-->
+</body>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+<script src="https://kit.fontawesome.com/ecaeeaf995.js" crossorigin="anonymous"></script>
+
+</html>
